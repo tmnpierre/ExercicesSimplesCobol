@@ -15,8 +15,9 @@
            03 CLIENT-NOM      PIC X(20).
            03 CLIENT-PRENOM   PIC X(20).
            03 CLIENT-POSTE    PIC X(14).
+           03 CLIENT-DEPT     PIC 99.
            03 CLIENT-SALAIRE  PIC 9(6).
-           03 CLIENT-AGENCE   PIC X(3).
+           03 CLIENT-AGENCE   PIC 9(6).
 
        WORKING-STORAGE SECTION.
        01  END-OF-FILE         PIC X VALUE 'N'.
